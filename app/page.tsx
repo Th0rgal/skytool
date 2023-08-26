@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 export default function Home() {
   const [runway, setRunway] = useState<number>(0);
   const [windSpeed, setWindSpeed] = useState<number>(0);
-  const [windDirection, setWindDirection] = useState<string>(0);
+  const [windDirection, setWindDirection] = useState<string>("0");
   const [kve, setKve] = useState<number>(0);
 
   // Using useEffect to compute KVE whenever windSpeed changes
